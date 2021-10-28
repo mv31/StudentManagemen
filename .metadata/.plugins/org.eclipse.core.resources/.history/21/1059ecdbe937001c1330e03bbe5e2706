@@ -1,0 +1,10 @@
+package com.app.service;
+
+import com.app.model.Student;
+
+public interface RegistrationService {
+
+	public Student fetchStudentByEmailId(String tempEmail, Student student) throws Exception;
+	public Student fetchStudentByEmailId(String tempEmail, String tempPass) throws Exception;
+
+}
